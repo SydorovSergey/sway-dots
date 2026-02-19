@@ -14,11 +14,12 @@ Minimal fast Sway setup with Gruvbox theme (NVIDIA-friendly).
 
 ```bash
 sudo pacman -S sway swaybg swayidle swaylock \
-  waybar wofi kitty\
-  wl-clipboard grim slurp \
+  waybar wofi kitty \
+  wl-clipboard \
   nvidia nvidia-utils egl-wayland \
   ttf-jetbrains-mono-nerd \
-  network-manager-applet networkmanager
+  network-manager-applet networkmanager \
+  ark chromium ranger freerdp remmina neovim spotify-launcher
 
 yay -S gruvbox-gtk-theme-git gruvbox-plus-icon-theme-git capitaine-cursors
 
